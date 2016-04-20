@@ -98,7 +98,7 @@ function onDeviceReady() {
     }, false);
 
 
-};
+}
 document.addEventListener("deviceready", onDeviceReady, false);
 // Wait for device API libraries to load
 //
@@ -106,12 +106,12 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function pagina2() {
     window.location = "2.html";
-};
+}
 
 function pagina1() {
 
     navigator.app.backHistory();
-};
+}
 
 function exitFromApp() {
     if(navigator.app) {
@@ -120,4 +120,4 @@ function exitFromApp() {
         navigator.device.exitApp();
     }
     
-};
+}
